@@ -1,5 +1,5 @@
 # Bootstrap Portfolio
-Create my portfolio with Bootstrape library.
+Create my portfolio with Bootstrap library.
 
 ## Motivation
 Create a web page to practice HTML, CSS and Bootstrap.
