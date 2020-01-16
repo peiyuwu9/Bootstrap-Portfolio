@@ -19,5 +19,10 @@ $(document).ready(function () {
 
     // };
 
+    $(".up-arrow").on("click", function () {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    })
+
     AOS.init();
 })
