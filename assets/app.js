@@ -2,19 +2,22 @@ $(document).ready(function () {
     // Initialize Tooltip
     $('[data-toggle="tooltip"]').tooltip();
 
-    $("#my-email-address").on("click", function () {
+    // function copyEmail() {
 
-        /* Select the text field */
-        var copyEmailAddress = $(this);
+    //     /* Get the text field */
+    //     var copyText = document.getElementById("myInput");
 
-        copyEmailAddress.select();
+    //     /* Select the text field */
+    //     copyText.select();
+    //     copyText.setSelectionRange(0, 99999); /*For mobile devices*/
 
-        /* Copy the text inside the text field */
-        document.execCommand("copy");
+    //     /* Copy the text inside the text field */
+    //     document.execCommand("copy");
 
-        /* Alert the copied text */
-        alert("Copied the text: " + copyEmailAddress);
-    });
+    //     /* Alert the copied text */
+    //     // alert("Copied the text: " + copyText.value);
+
+    // };
 
     AOS.init();
 })
