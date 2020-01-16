@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <script src="https://kit.fontawesome.com/d46c29a905.js" crossorigin="anonymous"></script>
-    <title>Title</title>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>It's Peiyu</title>
 </head>
 
 <body>
@@ -19,7 +21,7 @@
     <div class="container">
         <div class="row profile">
             <div class="col-12 col-sm-5">
-                <img id="profile" src="assets/profile.jpg">
+                <img id="profile" src="assets/images/profile.jpg">
             </div>
             <div class="col-12 col-sm-3">
             </div>
@@ -36,41 +38,57 @@
                 <h2>Projects</h2>
             </div>
             <div class="col-12 col-sm-9 project-intro">
-                <h3>Leaster</h3>
-                <p>Leaster allows service seekers and the company's providing those services a way connect and engage
-                    people who are seeking a particular service and the company's that are providing them. <a
-                        href="https://github.com/Sandman105/leadster">SEE REPO</a></p>
-                <p>Tool used: <span><i class="fab fa-react project-icon"></i><i
-                            class="fab fa-node-js project-icon"></i><i class="fab fa-js-square project-icon"></i></span>
-                </p>
+                <div data-aos="fade-down">
+                    <h3>Leaster</h3>
+                    <p>Leaster allows service seekers and the company's providing those services a way connect and
+                        engage
+                        people who are seeking a particular service and the company's that are providing them. <a
+                            href="https://github.com/Sandman105/leadster">SEE REPO</a></p>
+                    <p>Tool used: <span><i class="fab fa-react project-icon"></i><i
+                                class="fab fa-node-js project-icon"></i><i
+                                class="fab fa-js-square project-icon"></i></span>
+                    </p>
+                </div>
             </div>
             <div class="col-12 col-sm-3">
-                <a href="https://limitless-wildwood-17474.herokuapp.com/"><img src="assets/project/leadster.png"
-                        alt="Leaster" class="project-image"></a>
+                <div data-aos="fade-down">
+                    <a href="https://limitless-wildwood-17474.herokuapp.com/"><img src="assets/images/project/leadster.png"
+                            alt="Leaster" class="project-image"></a>
+                </div>
             </div>
             <div class="col-12 col-sm-9 project-intro">
-                <h3>Eats Plus Plus</h3>
-                <p>In Eats Plus Plus app, The user will have the ability to view, create new restaurants and restaurant
-                    reviews, ratings and comments. Then review the post and other restaurant reviews that are stored in
-                    database. <a href="https://github.com/Sandman105/EatsPlusPlus">SEE REPO</a></p>
-                <p>Tool used: <span><i class="fab fa-node-js project-icon"></i><i
-                            class="fab fa-js-square project-icon"></i></span></p>
+                <div data-aos="fade-down">
+                    <h3>Eats Plus Plus</h3>
+                    <p>In Eats Plus Plus app, The user will have the ability to view, create new restaurants and
+                        restaurant
+                        reviews, ratings and comments. Then review the post and other restaurant reviews that are stored
+                        in
+                        database. <a href="https://github.com/Sandman105/EatsPlusPlus">SEE REPO</a></p>
+                    <p>Tool used: <span><i class="fab fa-node-js project-icon"></i><i
+                                class="fab fa-js-square project-icon"></i></span></p>
+                </div>
             </div>
             <div class="col-12 col-sm-3">
-                <a href="https://safe-plateau-43129.herokuapp.com/"><img src="assets/project/eats_plus_plus.png"
-                        alt="Eats Plus Plus" class="project-image"></a>
+                <div data-aos="fade-down">
+                    <a href="https://safe-plateau-43129.herokuapp.com/"><img src="assets/images/project/eats_plus_plus.png"
+                            alt="Eats Plus Plus" class="project-image"></a>
+                </div>
             </div>
             <div class="col-12 col-sm-9 project-intro">
-                <h3>Maze Quest</h3>
-                <p>Maze Quest is online game that 2 players can log in and play the mze at the same time. <a
-                        href="https://github.com/peiyuwu9/maze-quest-duoplayers">SEE REPO</a></p>
-                <p>Tool used: <span><i class="fab fa-html5 project-icon"></i><i
-                            class="fab fa-css3-alt project-icon"></i><i
-                            class="fab fa-js-square project-icon"></i></span></p>
+                <div data-aos="fade-down">
+                    <h3>Maze Quest</h3>
+                    <p>Maze Quest is online game that 2 players can log in and play the mze at the same time. <a
+                            href="https://github.com/peiyuwu9/maze-quest-duoplayers">SEE REPO</a></p>
+                    <p>Tool used: <span><i class="fab fa-html5 project-icon"></i><i
+                                class="fab fa-css3-alt project-icon"></i><i
+                                class="fab fa-js-square project-icon"></i></span></p>
+                </div>
             </div>
             <div class="col-12 col-sm-3">
-                <a href="https://peiyuwu9.github.io/maze-quest-duoplayers/"><img src="assets/project/maze_quest.png"
-                        alt="Maze Quest" class="project-image"></a>
+                <div data-aos="fade-down">
+                    <a href="https://peiyuwu9.github.io/maze-quest-duoplayers/"><img src="assets/images/project/maze_quest.png"
+                            alt="Maze Quest" class="project-image"></a>
+                </div>
             </div>
         </div>
         <div class="row education">
@@ -78,30 +96,38 @@
                 <h2>Education</h2>
             </div>
             <div class="col-12 col-sm-4">
-                <a href="#demo-0" data-toggle="collapse">
-                    <img src="assets/logo/rutgers-logo.png" alt="Rutgers University" class="education-image">
-                </a>
-                <div id="demo-0" class="collapse">
-                    <h5>2019/09 - 2019/12</h5>
-                    <h5>Certificate of Full Stack Web Developement Bootcamp</h5>
+                <div data-aos="fade-right">
+                    <a href="#demo-0" data-toggle="collapse">
+                        <img src="assets/images/logo/rutgers-logo.png" alt="Rutgers University" class="education-image">
+                    </a>
+                    <div id="demo-0" class="collapse">
+                        <h5>2019/09 - 2019/12</h5>
+                        <h5>Certificate of Full Stack Web Developement Bootcamp</h5>
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-sm-4">
-                <a href="#demo-1" data-toggle="collapse">
-                    <img src="assets/logo/sit_logo.png" alt="Stevens Institute of Technology" class="education-image">
-                </a>
-                <div id="demo-1" class="collapse">
-                    <h5>2013/08 - 2015/06</h5>
-                    <h5>Master of Material Science</h5>
+                <div data-aos="fade-right" data-aos-delay="100">
+                    <a href="#demo-1" data-toggle="collapse">
+                        <img src="assets/images/logo/sit_logo.png" alt="Stevens Institute of Technology"
+                            class="education-image">
+                    </a>
+                    <div id="demo-1" class="collapse">
+                        <h5>2013/08 - 2015/06</h5>
+                        <h5>Master of Material Science</h5>
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-sm-4">
-                <a href="#demo-2" data-toggle="collapse">
-                    <img src="assets/logo/nsysu_logo.png" alt="National Sun Yat-Sen University" class="education-image">
-                </a>
-                <div id="demo-2" class="collapse">
-                    <h5>2008/08 - 2012/06</h5>
-                    <h5>Bachelor of Physics</h5>
+                <div data-aos="fade-right" data-aos-delay="200">
+                    <a href="#demo-2" data-toggle="collapse">
+                        <img src="assets/images/logo/nsysu_logo.png" alt="National Sun Yat-Sen University"
+                            class="education-image">
+                    </a>
+                    <div id="demo-2" class="collapse">
+                        <h5>2008/08 - 2012/06</h5>
+                        <h5>Bachelor of Physics</h5>
+                    </div>
                 </div>
             </div>
         </div>
@@ -110,7 +136,7 @@
                 <h2>Working Experience</h2>
             </div>
             <div class="col-12 col-sm-3">
-                <img src="assets/logo/iStar_logo.png" alt="iStar Jewelry" class="working-image">
+                <img src="assets/images/logo/iStar_logo.png" alt="iStar Jewelry" class="working-image">
             </div>
             <div class="col-12 col-sm-9">
                 <br>
@@ -188,7 +214,7 @@
         </div>
     </div>
     <footer class="text-center">
-        <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+        <a class="up-arrow" href="https://peiyuwu9.github.io/bootstrap-portfolio/" data-toggle="tooltip" title="TO TOP">
             <span class="glyphicon glyphicon-chevron-up"></span>
         </a><br><br>
         <div>
@@ -199,28 +225,7 @@
             <i class="profile-icon-footer fas fa-envelope" id="my-email-address" value="peiyuwu9@gmail.com"></i>
         </div>
     </footer>
-    <script>
-        $(document).ready(function () {
-            // Initialize Tooltip
-            $('[data-toggle="tooltip"]').tooltip();
-
-            $("#my-email-address").on("click", function(){
-
-                /* Select the text field */
-                var copyEmailAddress = $(this);
-
-                copyEmailAddress.select();
-
-                /* Copy the text inside the text field */
-                document.execCommand("copy");
-
-                /* Alert the copied text */
-                alert("Copied the text: " + copyEmailAddress);
-            });
-        })
-
-    </script>
-
+    <script type="text/javascript" src="./assets/app.js"></script>
 </body>
 
 </html>
