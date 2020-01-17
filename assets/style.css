@@ -125,3 +125,43 @@ footer a:hover {
 .profile-icon-footer:hover {
     cursor: pointer;
 }
+
+.title {
+    position: relative;
+    display: inline-block;
+}
+  
+.title .titleText {
+    visibility: hidden;
+    line-height: 2rem;
+    height: 3rem;
+    width: 140px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 80%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+  
+.title .titleText::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+  
+.title:hover .titleText {
+    visibility: visible;
+    opacity: 1;
+}
