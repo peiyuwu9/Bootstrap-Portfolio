@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-p {
+p, li {
     font-size: 2rem;
 }
 
